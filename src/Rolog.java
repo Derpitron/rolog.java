@@ -1,7 +1,7 @@
 public class Rolog {
     public static void main(String[] args) {
-        ProcessHandle processHandle = ProcessHandle.current();
+        ProcessHandle robloxHandle = ProcessHandle.();
 
-        System.out.println(processHandle.pid());
+        System.out.println(robloxHandle.info().arguments());
     }
 }
