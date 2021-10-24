@@ -1,5 +1,3 @@
-
-
 public class Rolog {
     public static void main(String[] args) {
         ProcessHandle processHandle = ProcessHandle.current();
